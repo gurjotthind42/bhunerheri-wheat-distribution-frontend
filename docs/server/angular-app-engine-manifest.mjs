@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/bhunerheri-wheat-distribution',
+  basePath: '/bhunerheri-wheat-distribution-frontend',
   supportedLocales: {
   "en-US": ""
 },
