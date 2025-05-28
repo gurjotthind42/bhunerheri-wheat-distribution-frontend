@@ -8,6 +8,7 @@ import { MatTableModule } from '@angular/material/table';
   selector: 'app-wheat-status',
   templateUrl: './wheat-status.component.html',
   styleUrls: ['./wheat-status.component.css'],
+  standalone: true, 
   imports: [CommonModule ,MatSlideToggleModule, MatTableModule ]
 })
 export class WheatStatusComponent implements OnInit {
