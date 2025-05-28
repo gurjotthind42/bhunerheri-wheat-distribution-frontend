@@ -5,6 +5,6 @@ import { Injectable } from '@angular/core';
 export class WheatService {
   constructor(private http: HttpClient) {}
   getData() {
-    return this.http.get<any[]>('https://your-backend-url.onrender.com/api/wheat');
+    return this.http.get<any[]>('https://wheat-backend-production.up.railway.app/api/wheat');
   }
 }
